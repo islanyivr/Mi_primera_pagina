@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/app.js" ></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1> Islanyi Sofía Villa Ramírez</h1>
+    </header>
+    
+    <main>
+        <section class="tarjeta">
+            <h2> Sobre mí. :D</h2>
+            <P>Mi nombre es Islanyi Sofia Villa Ramirez.
+                 tengo 17 años y me gusta leer y todo lo relacionado con el mundo de la belleza.</P>
+                 <p>Actualmente estoy estudiando ADSO en el SENA,
+                     también clases de inglés en una academia y trabajando los fines de semana en una gelatería muy cute.</p>
+        </section>
+
+        <section class="tarjeta">
+            <h2>Adivina mi número favorito</h2>
+            <p>Adivina cuál es mi número favorito del 1 al 10</p>
+            <input type="number" id="numero" placeholder="Escribe un número">
+            
+            <p id="resultado"></p>
+        </section>
+
+        <section>
+            <section class="tarjeta">
+                <h2>Mis favoritos</h2>
+                <p> selecciona una categoría para descubrir mis gustos.</p>
+                <label for="favoritos">Escoge una opción</label>
+                <select id="favoritos" onchange="mostrarFavorito()">
+                    <option value="">Selecciona</option>
+                    <option value="libro">Mi libro favorito</option>
+                    <option value="pelicula">Mi película favorita</option>
+                    <option value="artistas">Mis artistas favoritos</option>
+                </select>
+                <div id="informacion">
+                    <img src="https://i.pinimg.com/736x/a9/d0/5e/a9d05ea21c2db1a67c6938ef3e99537b.jpg" alt="">
+                </div>
+                <section class="tarjeta">
+                    <h2>Mensajito. :D</h2>
+                    <p>Presiona el botón para descubrir el mensaje</p>
+                    <button onclick="mostrarMensaje()">Presioname!</button>
+     
+                    
+                </section>
+                
+                
+
+            </section>
+        </section>
+        <footer>
+            <p>Hecho por Islanyi Sofía Villa Ramírez</p>
+        </footer>
+    </main>
+</body>
+</html>
